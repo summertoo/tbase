@@ -1,1 +1,1 @@
-sui move test --skip-fetch-latest-git-deps
+sui move test --install-dir D:\sui\star3\tbase\tmove
