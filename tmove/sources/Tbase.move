@@ -155,7 +155,7 @@ module tmove::tbase{
             let nl = num /t;
             if(t == 10){
                 let ten = num % 10;
-                res.push_back((48 + ten) as u8);//2024
+                res.push_back(((48 + ten) as u8));//2024 rustrover
                 // vector::push_back(&mut res,(48 + ten as u8));
             };
 
@@ -165,7 +165,7 @@ module tmove::tbase{
 
             let n2 = nl % 10;
             t=t*t;
-            res.push_back((48 + n2) as u8);//2024
+            res.push_back(((48 + n2) as u8));//2024
             // vector::push_back(&mut res,(48 + n2 as u8));
         };
 
